@@ -1,0 +1,785 @@
+/*** ADMIN DASHBOARD STYLES ***/
+
+.cm-proposals-dd-link {
+    cursor: pointer;
+}
+
+.cm-proposals-dd-content {
+    display: none;
+}
+
+/*** BUTTONS ***/
+.cm-proposals-button {
+    display: inline-block;
+    background-color: #cd3f4a;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition:    all 0.2s ease-in-out;
+    -ms-transition:     all 0.2s ease-in-out;
+    -o-transition:      all 0.2s ease-in-out;
+    transition:         all 0.2s ease-in-out;
+}
+
+.cm-proposals-button-inner {
+    padding: 1vh 1vw;
+}
+
+.cm-proposals-button-text {
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.cm-proposals-button:hover {
+    background-color: #fff;
+    color: #cd3f4a;
+}
+
+.cm-proposals-ghost-button {
+    border: 1px solid #999;
+    color: #999;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition:    all 0.2s ease-in-out;
+    -ms-transition:     all 0.2s ease-in-out;
+    -o-transition:      all 0.2s ease-in-out;
+    transition:         all 0.2s ease-in-out;
+}
+
+.cm-proposals-ghost-button:hover {
+    background: #999;
+    color: #fff;
+}
+
+#cm-proposals-add-proposal {
+    text-align: center;
+    background: #ddd;
+    color: #999;
+    width: 90%;
+    padding: 1vh 0;
+    cursor: pointer;
+}
+
+.cm-proposals-add-placeholder-input .cm-proposals-button-text {
+    font-size: 14px;
+}
+
+.cm-proposals-add-placeholder-input {
+    text-align: center;
+    background: #ddd;
+    color: #999;
+    width: 90%;
+    padding: 1vh 0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.cm-proposals-add-placeholder-input i {
+    font-size: 20px;
+}
+
+.cm-proposals-reset-proposal {
+    float: left;
+    background: #999;
+    margin-top: 15px;
+}
+
+.cm-proposals-reset-proposal .cm-proposals-button-text,
+.cm-proposals-generate-pdf .cm-proposals-button-text {
+    font-size: 12px;
+}
+
+.cm-proposals-generate-pdf {
+    float: right;
+    margin-top: 15px;
+}
+
+.cm-proposals-save {
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#cm-proposals-view-pdfs {
+    text-align: center;
+    width: 90%;
+    margin-top: 15px;
+}
+
+.cm-proposals-codemonkeys-help a {
+    color: #c5c5c5;
+    text-decoration: none;
+    padding: 1vh 1vw;
+    margin: auto;
+}
+
+.cm-proposals-codemonkeys-help .cm-proposals-ghost-button {
+    border: 1px solid #c5c5c5;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition:    all 0.2s ease-in-out;
+    -ms-transition:     all 0.2s ease-in-out;
+    -o-transition:      all 0.2s ease-in-out;
+    transition:         all 0.2s ease-in-out;
+}
+
+.cm-proposals-codemonkeys-help .cm-proposals-ghost-button:hover {
+    background: rgba(197, 197, 197, 0.7);
+    color: #fff;
+}
+
+.cm-proposals-pdf-delete {
+    cursor: pointer;
+}
+
+#code_monkeys_proposals_forms_options .button-primary {
+    width: 90%;
+    background: #cd3f4a;
+    border-color: transparent;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition:    all 0.2s ease-in-out;
+    -ms-transition:     all 0.2s ease-in-out;
+    -o-transition:      all 0.2s ease-in-out;
+    transition:         all 0.2s ease-in-out;
+}
+
+#code_monkeys_proposals_forms_options .button-primary:hover {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+/* TOUR TAB SECTION */
+.cm-proposals-tour-tab-left-col, .cm-proposals-tour-tab-right-col {
+    height: 100%;
+}
+
+.cm-proposals-tour-tab-left-col {
+    padding: 1vh 1vw;
+    position: relative;
+}
+
+.cm-proposals-tour-tab-right-col {
+    padding: 1vh 1vw;
+}
+
+.cm-proposals-tour-tab-menu ul {
+    position: relative;
+    margin-top: 0;
+}
+
+.cm-proposals-tour-tab-menu li {
+    list-style-type: none !important;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.cm-proposals-tour-tab-content-wrapper {
+    background: #666;
+    padding: 1vh 0 !important;
+}
+
+.cm-proposals-tour-tab-content {
+    display: none;
+    color: #fff;
+    font-size: 20px;
+    min-height: 500px;
+    overflow: hidden;
+    word-wrap: normal;
+    text-align: left;
+    padding: 0 2vw;
+}
+
+.cm-proposals-tour-tab-content-wrapper .cm-proposals-tour-tab-content:first-of-type {
+    display: block;
+}
+
+.cm-proposals-tour-tab-content .cm-proposals-mCSB_container {
+    color: #fff;
+}
+
+.cm-proposals-tour-tab-link {
+    background-color: #999;
+    box-shadow: 0px 1px 3px #888;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2vmin;
+    margin-bottom: 1.25vh;
+    width: 90%;
+}
+
+.cm-proposals-tour-tab-link-inner {
+    padding: 1vh 1vw;
+}
+
+.cm-proposals-tab-name {
+    vertical-align: middle;
+}
+
+.cm-proposals-active-tour-tab-link {
+    background-color: #666;
+    width: 100% !important;
+    box-shadow: none;
+}
+
+.cm-proposals-accordian-tab-link {
+    display: none;
+    background-color: #999;
+    box-shadow: 0px 1px 3px #000;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 1vh;
+    padding: 1vh 1vw;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cm-proposals-accordian-tab-link:first-of-type {
+    margin-top: -5px;
+}
+
+.cm-proposals-active-accordian-tab-link {
+    background-color: #666;
+}
+
+/*** INLINE BLOCK GRID ***/
+.cm_proposals_grid_row {
+    position: relative;
+    font-size: 0;
+    width: calc(100% + 1vw);
+    margin-left: -0.5vw;
+}
+
+.cm_proposals_grid_row_nogap {
+    position: relative;
+    font-size: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+.cm_proposals_col_80,
+.cm_proposals_col_75,
+.cm_proposals_col_70,
+.cm_proposals_col_60,
+.cm_proposals_col_50,
+.cm_proposals_col_45,
+.cm_proposals_col_40,
+.cm_proposals_col_35,
+.cm_proposals_col_33,
+.cm_proposals_col_30,
+.cm_proposals_col_28,
+.cm_proposals_col_25,
+.cm_proposals_col_20,
+.cm_proposals_col_16,
+.cm_proposals_col_15,
+.cm_proposals_col_12 {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 25px;
+    flex: auto;
+}
+.cm_proposals_col_80 {
+    width: 80%;
+}
+.cm_proposals_col_75 {
+    width: 75%;
+}
+.cm_proposals_col_70 {
+    width: 70%;
+}
+.cm_proposals_col_60 {
+    width: 60%;
+}
+.cm_proposals_col_50 {
+    width: 50%;
+}
+.cm_proposals_col_45 {
+    width: 45%;
+}
+.cm_proposals_col_40 {
+    width: 40%;
+}
+.cm_proposals_col_35 {
+    width: 35%;
+}
+.cm_proposals_col_33 {
+    width: 33.333%;
+}
+.cm_proposals_col_30 {
+    width: 30%;
+}
+.cm_proposals_col_28 {
+    width: 28%;
+}
+.cm_proposals_col_25 {
+    width: 25%;
+}
+.cm_proposals_col_20 {
+    width: 20%;
+}
+.cm_proposals_col_16 {
+    width: 16.6666667%;
+}
+.cm_proposals_col_15 {
+    width: 15%;
+}
+.cm_proposals_col_12 {
+    width: 12.5%;
+}
+
+.cm-proposals-height-100 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    white-space: nowrap;
+    height: 100%;
+}
+/* END INLINE BLOCK GRID */
+
+/*** CUSTOM LOADING BAR ***/
+.cm-proposals-progress-wrapper{
+    position: absolute;
+    height: 5px;
+    width: 75%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.cm-proposals-progress {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+}
+.cm-proposals-progress-bar {
+    position: absolute;
+    top: -1px;
+    width: 10%;
+    height: 4px;
+    background-color: #878687;
+}
+.cm-proposals-progress-label {
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+}
+
+/*** SWITCH STYLES ***/
+.cm-proposals-toggle-button {
+    text-align: right;
+}
+
+.cm-proposals-switch {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 34px;
+}
+
+.cm-proposals-switch input {display:none;}
+
+.cm-proposals-slider {
+    position: absolute;
+    border-radius: 34px;
+    background-color: #888;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .8s;
+    transition: .8s;
+    -moz-box-shadow: inset 0 0 3px rgba(4,4,4,0.9);
+    -webkit-box-shadow: inset 0 0 3px rgba(4,4,4,0.9);
+    box-shadow: inset 0 0 3px rgba(4,4,4,0.9);
+}
+
+.cm-proposals-slider:before {
+    position: absolute;
+    content: "";
+    border-radius: 34px;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .8s;
+    transition: .8s;
+    z-index: 2;
+}
+
+input:checked + .cm-proposals-slider {
+    background-color: #888;
+}
+
+input:focus + .cm-proposals-slider {
+    box-shadow: 0 0 1px #222;
+}
+
+input:checked + .cm-proposals-slider:before {
+    -webkit-transform: translateX(116px);
+    -ms-transform: translateX(116px);
+    transform: translateX(116px);
+}
+
+.cm-proposals-slider:after {
+    content:'TEMPLATE';
+    color: #666666;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+input:checked + .cm-proposals-slider:after {
+    content:'PROPOSAL';
+    color: #fff;
+}
+
+/*** PDF MODAL ***/
+.cm-proposals-modal {
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;
+}
+
+.cm-proposals-modal-inner {
+    position: absolute;
+    background: #2d576f;
+    color: #fff;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+.cm-proposals-modal-inner-top {
+    text-align: right;
+    padding: 10px;
+}
+
+.cm-proposals-modal-close {
+    display: inline-block;
+    font-size: 2.5vmin;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cm-proposals-modal-inner-body {
+    text-align: center;
+    padding: 15px;
+    max-height: 60vh;
+}
+
+.cm-proposals-modal-inner-body ul {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.cm-proposals-modal-text {
+    font-size: 2.5vmin;
+    line-height: 3.5vmin;
+}
+
+.cm-proposals-pdf-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/*** GENERAL STYLES ***/
+.code-monkeys-proposals {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.cm-proposals-page-title {
+    color: #f47b2f;
+    margin-bottom: 15px !important;
+    text-transform: uppercase;
+}
+
+.cm-proposals-template {
+    display: none;
+}
+
+.cm-proposals-template-top {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cm-proposals-notice {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.code-monkeys-proposals iframe {
+    min-height: 550px;
+}
+
+.cm-proposal-hidden-form-wrapper {
+    margin-bottom: 15px;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+#cm-proposals-template-wysiwyg-initial-wrapper, #cm-proposals-proposals-wysiwyg-initial-wrapper {
+    display: none;
+}
+
+.cm-proposals-placeholder-toggle, .cm-proposals-placeholder-delete {
+    cursor: pointer;
+}
+
+.cm-proposals-placeholder-inputs input {
+    width: calc(90% - 50px);
+}
+
+.cm-proposals-placeholder-input-wrapper {
+    margin-bottom: 5px;
+}
+
+.cm-proposals-placeholder-input-wrapper .material-icons {
+    font-size: 20px;
+}
+
+.cm-proposals-placeholder-option {
+    display: none;
+}
+
+.cm-proposals-placeholder-option-input {
+    margin-left: 48px;
+}
+
+#cm-proposals-notice, .cm-proposals-pdf-notice {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cm-proposals-pdf-notice a {
+    color: #fff;
+}
+
+.cm-proposals-codemonkeys-box {
+    background-image: url(../images/logo-faint.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.cm-proposals-codemonkeys-help {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #c5c5c5;
+    font-size: 2vmin;
+    line-height: 22px;
+    width: 100%;
+}
+
+.cm-proposals-codemonkeys-help p {
+    font-size: inherit;
+    line-height: inherit;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.cm-proposals-codemonkeys-help p:last-of-type {
+    padding-top: 2vh;
+}
+
+.cm-proposals-plugin-instructions {
+    color: #999;
+    text-align: center;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.cm-proposals-plugin-instructions a {
+    color: #999;
+    vertical-align: middle;
+}
+
+.cm-proposals-placeholder-key {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #ddd;
+}
+
+.cm-proposals-placeholder-key-title {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cm-proposals-page-title {
+        text-align: center;
+    }
+
+    .cm_proposals_grid_row_nogap {
+        display: block;
+    }
+
+    .cm_proposals_col_5,
+    .cm_proposals_col_10,
+    .cm_proposals_col_15,
+    .cm_proposals_col_16,
+    .cm_proposals_col_20,
+    .cm_proposals_col_25,
+    .cm_proposals_col_30,
+    .cm_proposals_col_33,
+    .cm_proposals_col_35,
+    .cm_proposals_col_40,
+    .cm_proposals_col_45,
+    .cm_proposals_col_50,
+    .cm_proposals_col_55,
+    .cm_proposals_col_60,
+    .cm_proposals_col_65,
+    .cm_proposals_col_66,
+    .cm_proposals_col_70,
+    .cm_proposals_col_75,
+    .cm_proposals_col_80,
+    .cm_proposals_col_85,
+    .cm_proposals_col_90,
+    .cm_proposals_col_95,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_5,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_10,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_15,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_16,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_20,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_25,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_30,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_33,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_35,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_40,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_45,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_50,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_55,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_60,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_65,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_66,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_70,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_75,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_80,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_85,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_90,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_95,
+    .cm_proposals_grid_row_nogap .cm_proposals_col_100 {
+        display: block;
+        width: 100%;
+    }
+
+    .cm-proposals-tour-tab-menu ul {
+        display: none !important;
+    }
+
+    .cm-proposals-accordian-tab-link {
+        display: block;
+    }
+
+    .cm-proposals-tour-tab-left-col, .cm-proposals-tour-tab-right-col {
+        display: block;
+        width: 100%;
+    }
+
+    .cm-proposals-tour-tab-left-col {
+        height: auto;
+        padding: 0;
+    }
+
+    .cm-proposals-tour-tab-right-col {
+        height: 50vh;
+        padding: 2vh 1.5vw;
+        width: 100%;
+    }
+
+    .cm-proposals-tour-tab-left-col {
+        display: none;
+    }
+
+    .cm-proposals-tour-tab-menu li {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    .cm-proposals-tour-tab-content {
+        display: none;
+        height: 95%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .cm-proposals-tour-tab-menu li {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    .cm-proposals-toggle-button {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .cm-proposals-add-placeholder-input {
+        margin: auto;
+    }
+
+    .cm-proposals-codemonkeys-box {
+        display: none;
+    }
+
+    #cm-proposals-add-proposal,
+    #cm-proposals-view-pdfs,
+    .cm-proposals-codemonkeys-box,
+    .cm-proposals-plugin-instructions {
+        margin: auto;
+    }
+
+    .cm-proposals-plugin-instructions {
+        margin-top: 15px;
+    }
+
+    #code_monkeys_proposals_forms_options {
+        text-align: center;
+    }
+}
